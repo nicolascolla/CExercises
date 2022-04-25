@@ -87,7 +87,7 @@ $ gcc -o readability readability.c -lcs50 -lm
 
 ### caesar
 
-Simple implementation of the [Caesar cipher algorithm](https://en.wikipedia.org/wiki/Caesar_cipher).
+Simple implementation of the [Caesar cipher algorithm](https://en.wikipedia.org/wiki/Caesar_cipher). Provides usage instructions when used incorrectly:
 
 ```
 $ ./caesar 5
@@ -95,7 +95,7 @@ plaintext: Hello, world!
 ciphertext: Mjqqt, btwqi!
 ```
 
-Provides usage instructions when used incorrectly:
+Provides usage instructions after an error:
 
 ```
 $ ./caesar
@@ -141,5 +141,22 @@ Valid triangle
 
 ```
 $ gcc -o triangle triangle.c -lcs50
+```
+
+
+
+### ascii
+
+Converts a space-separated list of decimal numbers to its ASCII equivalent:
+
+```
+$ ./ascii 72 101 108 108 111 44 32 119 111 114 108 100 33 
+Hello, world!
+```
+
+**Building instructions**
+
+```
+$ gcc -o ascii ascii.c
 ```
 

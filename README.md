@@ -87,7 +87,7 @@ $ gcc -o readability readability.c -lcs50 -lm
 
 ### caesar
 
-Simple implementation of the [Caesar cipher algorithm](https://en.wikipedia.org/wiki/Caesar_cipher). Provides usage instructions when used incorrectly:
+Simple implementation of the [Caesar cipher algorithm](https://en.wikipedia.org/wiki/Caesar_cipher).
 
 ```
 $ ./caesar 5
@@ -95,7 +95,7 @@ plaintext: Hello, world!
 ciphertext: Mjqqt, btwqi!
 ```
 
-Provides usage instructions after an error:
+Provides usage instructions when used incorrectly:
 
 ```
 $ ./caesar

@@ -34,7 +34,7 @@ int main(int argc, string argv[])
         string plaintext = get_string("plaintext: ");
 
         // Print the ciphertext
-        printf("cyphertext: ");
+        printf("ciphertext: ");
         for (int i = 0; i < strlen(plaintext); i++)
         {
             printf("%c", rotate(plaintext[i], key));

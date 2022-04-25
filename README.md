@@ -92,7 +92,7 @@ Simple implementation of the [Caesar cipher algorithm](https://en.wikipedia.org/
 ```
 $ ./caesar 5
 plaintext: Hello, world!
-cyphertext: Mjqqt, btwqi!
+ciphertext: Mjqqt, btwqi!
 ```
 
 Provides usage instructions after an error:
